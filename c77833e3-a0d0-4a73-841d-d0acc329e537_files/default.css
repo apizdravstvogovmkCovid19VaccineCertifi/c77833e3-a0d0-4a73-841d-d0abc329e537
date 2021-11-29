@@ -1,0 +1,276 @@
+div.t-error {
+	margin: 4px 0px; padding: 0px; border: 1px solid red; border-image: none;
+}
+div.t-error div.t-banner {
+	margin: 0px; padding: 2px; color: white; font-weight: bold; display: block; background-color: red;
+}
+div.t-error ul {
+	margin: 2px 0px; color: red; background-color: white;
+}
+div.t-error li {
+	margin-left: 20px;
+}
+div.t-error-single {
+	margin: 0px; padding: 2px; color: white; display: block; background-color: red;
+}
+html > body div.t-error li {
+	margin-left: -20px;
+}
+.t-invisible {
+	display: none;
+}
+label.t-error {
+	color: red;
+}
+input.t-error {
+	border-color: red; color: red; font-style: italic;
+}
+textarea.t-error {
+	border-color: red; color: red; font-style: italic;
+}
+select.t-error {
+	border-color: red; color: red; font-style: italic;
+}
+img.t-error-icon {
+	background: url("field-error-marker.gif"); width: 16px; height: 16px; margin-left: 4px;
+}
+img.t-autoloader-icon {
+	background: url("ajax-loader.gif"); width: 16px; height: 16px; margin-left: 4px;
+}
+img.t-sort-icon {
+	margin-left: 4px;
+}
+div.t-exception-message {
+	margin: 5px 0px; padding: 3px; border: thin dotted silver; border-image: none; font-size: 12pt; font-style: italic;
+}
+div.t-exception-report {
+	font-family: "Trebuchet MS",Arial,sans-serif;
+}
+div.t-env-data {
+	font-family: "Trebuchet MS",Arial,sans-serif;
+}
+div.t-exception-report li {
+	margin-left: -40px;
+}
+div.t-exception-report dt {
+	color: green; padding-left: 2px; background-color: rgb(255, 255, 207);
+}
+div.t-env-data dt {
+	color: green; padding-left: 2px; background-color: rgb(255, 255, 207);
+}
+div.t-exception-report li {
+	list-style: none;
+}
+span.t-exception-class-name {
+	padding: 2px 3px; color: blue; font-size: 12pt; font-weight: bold; margin-top: 15px; display: block; background-color: rgb(225, 225, 225);
+}
+span.t-exception-stack-controls {
+	float: right; display: block;
+}
+ul.t-stack-trace li {
+	list-style: square; font-family: Monaco,Times,monospace; font-size: 10pt; margin-left: -25px;
+}
+li.t-usercode-frame {
+	color: blue; font-weight: bold;
+}
+li.t-omitted-frame {
+	list-style: square; color: gray; display: none;
+}
+h1.t-exception-report {
+	color: red; font-family: "Trebuchet MS",Arial,sans-serif;
+}
+div.t-exception-report dt::after {
+	content: ":";
+}
+div.t-exception-report dd {
+	margin-left: 10px;
+}
+div.t-env-data dd {
+	margin-left: 10px;
+}
+table.t-data-table {
+	margin: 0px; padding: 2px; border-collapse: collapse;
+}
+table.t-data-table th {
+	color: white; background-color: black;
+}
+table.t-data-table td {
+	margin: 0px; border: 1px solid silver; border-image: none;
+}
+div.t-beaneditor {
+	background: rgb(255, 255, 204); padding: 2px; border: 2px outset brown; border-image: none; font-family: "Trebuchet MS",Arial,sans-serif; display: block;
+}
+div.t-beaneditor-row {
+	padding: 4px 0px 2px;
+}
+div.t-beaneditor-row label::after {
+	content: ":";
+}
+dl.t-beandisplay {
+	background: rgb(204, 190, 153); padding: 2px; border: 2px outset black; border-image: none; width: auto; font-family: "Trebuchet MS",Arial,sans-serif; display: block;
+}
+dl.t-beandisplay dt {
+	width: 250px; text-align: right; padding-right: 3px; clear: left; vertical-align: middle; float: left; display: inline;
+}
+dl.t-beandisplay dt::after {
+	content: ":";
+}
+div.t-beaneditor-row label {
+	width: 250px; text-align: right; padding-right: 3px; clear: left; vertical-align: middle; float: left; display: block;
+}
+div.t-checklist-row {
+	padding: 4px 0px 2px;
+}
+div.t-checklist-row label {
+	text-align: right; padding-left: 5px; vertical-align: middle;
+}
+input.t-number {
+	text-align: right;
+}
+div.t-beandisplay div.t-beandisplay-label {
+	padding-right: 5px;
+}
+table.t-data-grid thead tr {
+	color: white; background-color: rgb(128, 159, 255);
+}
+table.t-data-grid thead tr th {
+	padding: 3px; text-align: left; border-right-color: silver; border-bottom-color: silver; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; white-space: nowrap;
+}
+table.t-data-grid {
+	border-left-color: silver; border-left-width: 1px; border-left-style: solid; border-collapse: collapse;
+}
+table.t-data-grid tbody tr td {
+	padding: 2px; border-right-color: silver; border-bottom-color: silver; border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+div.t-data-grid {
+	font-family: "Trebuchet MS",Arial,sans-serif;
+}
+div.t-data-grid-pager {
+	margin: 8px 0px;
+}
+div.t-data-grid-pager a {
+	padding: 2px 5px; border: 1px solid silver; border-image: none; color: black; font-size: medium; text-decoration: none; margin-right: 5px;
+}
+div.t-data-grid-pager span.current {
+	padding: 2px 5px; border: 1px solid silver; border-image: none; color: black; font-size: medium; text-decoration: none; margin-right: 5px;
+}
+div.t-data-grid-pager a:hover {
+	border: 1px solid black; border-image: none;
+}
+div.t-data-grid-pager span.current {
+	color: white; background-color: rgb(128, 159, 255);
+}
+table.t-data-grid tr th a {
+	color: white;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+div.t-env-data-section {
+	padding-left: 5px;
+}
+div.t-env-data dd {
+	margin-bottom: 10px; margin-left: 25px;
+}
+div.t-exception-report dd {
+	margin-bottom: 10px; margin-left: 25px;
+}
+div.t-env-data li {
+	margin-left: -25px;
+}
+div.t-env-data-section {
+	padding: 2px 3px; color: blue; font-size: 12pt; font-weight: bold; background-color: rgb(225, 225, 225);
+}
+table.t-location-outer {
+	padding: 5px; border: 1px solid black; border-image: none; width: 100%; border-collapse: collapse;
+}
+td.t-location-line {
+	padding: 0px 3px 0px 0px; width: 40px; text-align: right; border-right-color: black; border-right-width: 1px; border-right-style: solid; background-color: rgb(225, 225, 225);
+}
+td.t-location-content {
+	border-top-color: silver; border-right-color: black; border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; white-space: pre;
+}
+td.t-location-current {
+	background-color: rgb(255, 255, 207);
+}
+td.t-location-content-first {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+div.t-palette {
+	display: inline;
+}
+div.t-palette select {
+	width: 200px; margin-bottom: 2px;
+}
+div.t-palette-title {
+	text-align: center; color: white; font-weight: bold; margin-bottom: 3px; display: block; background-color: rgb(128, 159, 255);
+}
+div.t-palette-available {
+	float: left;
+}
+div.t-palette-controls {
+	margin: 5px; text-align: center; float: left;
+}
+div.t-palette-controls button {
+	margin-bottom: 3px; display: block; cursor: pointer;
+}
+div.t-palette-controls button[disabled] img {
+	cursor: default; opacity: 0.25; -moz-opacity: .25;
+}
+div.t-palette-selected {
+	clear: right; float: left;
+}
+div.t-palette-spacer {
+	clear: left;
+}
+img.t-calendar-trigger {
+	padding-left: 3px; cursor: pointer;
+}
+div.t-autocomplete-menu {
+	z-index: 9999;
+}
+div.t-autocomplete-menu ul {
+	padding: 4px 6px; border: 2px outset rgb(204, 153, 51); border-image: none; overflow: auto; background-color: rgb(204, 153, 51);
+}
+div.t-autocomplete-menu li {
+	margin: 0px; padding: 0px; color: white; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none; cursor: pointer;
+}
+div.t-autocomplete-menu li.selected {
+	color: black; font-weight: bold;
+}
+div.t-error-popup span {
+	background: url("error-bevel-left.gif") no-repeat; padding: 0px 5px 10px 22px; line-height: 28px; margin-left: 0px; display: block;
+}
+html > body div.t-error-popup span {
+	background: url("error-bevel-left.png") no-repeat;
+}
+div.t-error-popup {
+	background: url("error-bevel-right.gif") no-repeat right top; font: 12px/normal arial, sans-serif; height: 39px; color: rgb(255, 255, 255); padding-right: 29px; text-decoration: none; margin-right: 6px; float: left; display: block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+html > body div.t-error-popup {
+	background: url("error-bevel-right.png") no-repeat right top;
+}
+ul.t-data-list li {
+	list-style-type: square;
+}
+div.t-loading {
+	background: url("ajax-loader.gif") no-repeat right top; width: auto; padding-right: 20px; font-weight: bold; display: inline;
+}
+div.t-dialog-overlay {
+	background: url("dialog-background.gif"); margin: auto; left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 9990;
+}
+div.t-page-loading-banner {
+	background: url("ajax-loader.gif") no-repeat 4px white; padding: 2px 4px 2px 24px; left: 5px; top: 5px; width: auto; color: black; font-weight: bold; border-right-color: black; border-bottom-color: black; border-right-width: 2px; border-bottom-width: 2px; border-right-style: solid; border-bottom-style: solid; position: absolute;
+}
+span.t-render-object-error {
+	color: red; font-weight: bold;
+}
+div.t-available-values ul li {
+	margin-left: 0px; list-style-type: disc;
+}
+div.t-exception-container {
+	background: white; border: 1px solid black; border-image: none; left: 50px; top: 50px; position: fixed; box-shadow: 6px 6px 3px #888; -moz-box-shadow: 6px 6px 3px #888; -webkit-box-shadow: 6px 6px 3px #888;
+}
+div.t-exception-container .t-exception-close {
+	background: url("silk/delete.png") no-repeat rgb(232, 232, 232); margin: 5px; border-radius: 5px; height: 18px; padding-right: 2px; padding-left: 22px; float: right; display: block; cursor: pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
