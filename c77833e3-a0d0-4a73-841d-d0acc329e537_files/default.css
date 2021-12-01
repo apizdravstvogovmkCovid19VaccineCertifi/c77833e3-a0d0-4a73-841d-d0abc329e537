@@ -1,3 +1,4 @@
+width: device-width;
 div.t-error {
 	margin: 4px 0px; padding: 0px; border: 1px solid red; border-image: none;
 }
